@@ -1,0 +1,576 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		35DA7344204EB4C3005E6789 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 35DA7343204EB4C3005E6789 /* AppDelegate.m */; };
+		35DA7347204EB4C3005E6789 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35DA7346204EB4C3005E6789 /* FirstViewController.m */; };
+		35DA734A204EB4C3005E6789 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35DA7349204EB4C3005E6789 /* SecondViewController.m */; };
+		35DA734D204EB4C3005E6789 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35DA734B204EB4C3005E6789 /* Main.storyboard */; };
+		35DA734F204EB4C3005E6789 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35DA734E204EB4C3005E6789 /* Assets.xcassets */; };
+		35DA7352204EB4C3005E6789 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35DA7350204EB4C3005E6789 /* LaunchScreen.storyboard */; };
+		35DA7355204EB4C3005E6789 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 35DA7354204EB4C3005E6789 /* main.m */; };
+		35DA735F204EB4C3005E6789 /* IlinkSoftwareTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 35DA735E204EB4C3005E6789 /* IlinkSoftwareTests.m */; };
+		35DA736A204EB4C3005E6789 /* IlinkSoftwareUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 35DA7369204EB4C3005E6789 /* IlinkSoftwareUITests.m */; };
+		35DA737A204F0C6D005E6789 /* APIDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 35DA7379204F0C6D005E6789 /* APIDataModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		35DA735B204EB4C3005E6789 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 35DA7337204EB4C3005E6789 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 35DA733E204EB4C3005E6789;
+			remoteInfo = IlinkSoftware;
+		};
+		35DA7366204EB4C3005E6789 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 35DA7337204EB4C3005E6789 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 35DA733E204EB4C3005E6789;
+			remoteInfo = IlinkSoftware;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		35DA733F204EB4C3005E6789 /* IlinkSoftware.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IlinkSoftware.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		35DA7342204EB4C3005E6789 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		35DA7343204EB4C3005E6789 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		35DA7345204EB4C3005E6789 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		35DA7346204EB4C3005E6789 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		35DA7348204EB4C3005E6789 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		35DA7349204EB4C3005E6789 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		35DA734C204EB4C3005E6789 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		35DA734E204EB4C3005E6789 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		35DA7351204EB4C3005E6789 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		35DA7353204EB4C3005E6789 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35DA7354204EB4C3005E6789 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		35DA735A204EB4C3005E6789 /* IlinkSoftwareTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IlinkSoftwareTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		35DA735E204EB4C3005E6789 /* IlinkSoftwareTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IlinkSoftwareTests.m; sourceTree = "<group>"; };
+		35DA7360204EB4C3005E6789 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35DA7365204EB4C3005E6789 /* IlinkSoftwareUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IlinkSoftwareUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		35DA7369204EB4C3005E6789 /* IlinkSoftwareUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IlinkSoftwareUITests.m; sourceTree = "<group>"; };
+		35DA736B204EB4C3005E6789 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35DA7378204F0C6D005E6789 /* APIDataModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APIDataModel.h; sourceTree = "<group>"; };
+		35DA7379204F0C6D005E6789 /* APIDataModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = APIDataModel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		35DA733C204EB4C3005E6789 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35DA7357204EB4C3005E6789 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35DA7362204EB4C3005E6789 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		35DA7336204EB4C3005E6789 = {
+			isa = PBXGroup;
+			children = (
+				35DA7341204EB4C3005E6789 /* IlinkSoftware */,
+				35DA735D204EB4C3005E6789 /* IlinkSoftwareTests */,
+				35DA7368204EB4C3005E6789 /* IlinkSoftwareUITests */,
+				35DA7340204EB4C3005E6789 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		35DA7340204EB4C3005E6789 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				35DA733F204EB4C3005E6789 /* IlinkSoftware.app */,
+				35DA735A204EB4C3005E6789 /* IlinkSoftwareTests.xctest */,
+				35DA7365204EB4C3005E6789 /* IlinkSoftwareUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		35DA7341204EB4C3005E6789 /* IlinkSoftware */ = {
+			isa = PBXGroup;
+			children = (
+				35DA7377204F0C39005E6789 /* Restful */,
+				35DA7342204EB4C3005E6789 /* AppDelegate.h */,
+				35DA7343204EB4C3005E6789 /* AppDelegate.m */,
+				35DA7345204EB4C3005E6789 /* FirstViewController.h */,
+				35DA7346204EB4C3005E6789 /* FirstViewController.m */,
+				35DA7348204EB4C3005E6789 /* SecondViewController.h */,
+				35DA7349204EB4C3005E6789 /* SecondViewController.m */,
+				35DA734B204EB4C3005E6789 /* Main.storyboard */,
+				35DA734E204EB4C3005E6789 /* Assets.xcassets */,
+				35DA7350204EB4C3005E6789 /* LaunchScreen.storyboard */,
+				35DA7353204EB4C3005E6789 /* Info.plist */,
+				35DA7354204EB4C3005E6789 /* main.m */,
+			);
+			path = IlinkSoftware;
+			sourceTree = "<group>";
+		};
+		35DA735D204EB4C3005E6789 /* IlinkSoftwareTests */ = {
+			isa = PBXGroup;
+			children = (
+				35DA735E204EB4C3005E6789 /* IlinkSoftwareTests.m */,
+				35DA7360204EB4C3005E6789 /* Info.plist */,
+			);
+			path = IlinkSoftwareTests;
+			sourceTree = "<group>";
+		};
+		35DA7368204EB4C3005E6789 /* IlinkSoftwareUITests */ = {
+			isa = PBXGroup;
+			children = (
+				35DA7369204EB4C3005E6789 /* IlinkSoftwareUITests.m */,
+				35DA736B204EB4C3005E6789 /* Info.plist */,
+			);
+			path = IlinkSoftwareUITests;
+			sourceTree = "<group>";
+		};
+		35DA7377204F0C39005E6789 /* Restful */ = {
+			isa = PBXGroup;
+			children = (
+				35DA7378204F0C6D005E6789 /* APIDataModel.h */,
+				35DA7379204F0C6D005E6789 /* APIDataModel.m */,
+			);
+			path = Restful;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		35DA733E204EB4C3005E6789 /* IlinkSoftware */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35DA736E204EB4C3005E6789 /* Build configuration list for PBXNativeTarget "IlinkSoftware" */;
+			buildPhases = (
+				35DA733B204EB4C3005E6789 /* Sources */,
+				35DA733C204EB4C3005E6789 /* Frameworks */,
+				35DA733D204EB4C3005E6789 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IlinkSoftware;
+			productName = IlinkSoftware;
+			productReference = 35DA733F204EB4C3005E6789 /* IlinkSoftware.app */;
+			productType = "com.apple.product-type.application";
+		};
+		35DA7359204EB4C3005E6789 /* IlinkSoftwareTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35DA7371204EB4C3005E6789 /* Build configuration list for PBXNativeTarget "IlinkSoftwareTests" */;
+			buildPhases = (
+				35DA7356204EB4C3005E6789 /* Sources */,
+				35DA7357204EB4C3005E6789 /* Frameworks */,
+				35DA7358204EB4C3005E6789 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				35DA735C204EB4C3005E6789 /* PBXTargetDependency */,
+			);
+			name = IlinkSoftwareTests;
+			productName = IlinkSoftwareTests;
+			productReference = 35DA735A204EB4C3005E6789 /* IlinkSoftwareTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		35DA7364204EB4C3005E6789 /* IlinkSoftwareUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35DA7374204EB4C3005E6789 /* Build configuration list for PBXNativeTarget "IlinkSoftwareUITests" */;
+			buildPhases = (
+				35DA7361204EB4C3005E6789 /* Sources */,
+				35DA7362204EB4C3005E6789 /* Frameworks */,
+				35DA7363204EB4C3005E6789 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				35DA7367204EB4C3005E6789 /* PBXTargetDependency */,
+			);
+			name = IlinkSoftwareUITests;
+			productName = IlinkSoftwareUITests;
+			productReference = 35DA7365204EB4C3005E6789 /* IlinkSoftwareUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		35DA7337204EB4C3005E6789 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Lakshmanan;
+				TargetAttributes = {
+					35DA733E204EB4C3005E6789 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+					35DA7359204EB4C3005E6789 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 35DA733E204EB4C3005E6789;
+					};
+					35DA7364204EB4C3005E6789 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 35DA733E204EB4C3005E6789;
+					};
+				};
+			};
+			buildConfigurationList = 35DA733A204EB4C3005E6789 /* Build configuration list for PBXProject "IlinkSoftware" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 35DA7336204EB4C3005E6789;
+			productRefGroup = 35DA7340204EB4C3005E6789 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				35DA733E204EB4C3005E6789 /* IlinkSoftware */,
+				35DA7359204EB4C3005E6789 /* IlinkSoftwareTests */,
+				35DA7364204EB4C3005E6789 /* IlinkSoftwareUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		35DA733D204EB4C3005E6789 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35DA7352204EB4C3005E6789 /* LaunchScreen.storyboard in Resources */,
+				35DA734F204EB4C3005E6789 /* Assets.xcassets in Resources */,
+				35DA734D204EB4C3005E6789 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35DA7358204EB4C3005E6789 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35DA7363204EB4C3005E6789 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		35DA733B204EB4C3005E6789 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35DA737A204F0C6D005E6789 /* APIDataModel.m in Sources */,
+				35DA734A204EB4C3005E6789 /* SecondViewController.m in Sources */,
+				35DA7344204EB4C3005E6789 /* AppDelegate.m in Sources */,
+				35DA7355204EB4C3005E6789 /* main.m in Sources */,
+				35DA7347204EB4C3005E6789 /* FirstViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35DA7356204EB4C3005E6789 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35DA735F204EB4C3005E6789 /* IlinkSoftwareTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35DA7361204EB4C3005E6789 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35DA736A204EB4C3005E6789 /* IlinkSoftwareUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		35DA735C204EB4C3005E6789 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 35DA733E204EB4C3005E6789 /* IlinkSoftware */;
+			targetProxy = 35DA735B204EB4C3005E6789 /* PBXContainerItemProxy */;
+		};
+		35DA7367204EB4C3005E6789 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 35DA733E204EB4C3005E6789 /* IlinkSoftware */;
+			targetProxy = 35DA7366204EB4C3005E6789 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		35DA734B204EB4C3005E6789 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				35DA734C204EB4C3005E6789 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		35DA7350204EB4C3005E6789 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				35DA7351204EB4C3005E6789 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		35DA736C204EB4C3005E6789 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		35DA736D204EB4C3005E6789 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		35DA736F204EB4C3005E6789 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = IlinkSoftware/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tags.IlinkSoftware;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		35DA7370204EB4C3005E6789 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = IlinkSoftware/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tags.IlinkSoftware;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		35DA7372204EB4C3005E6789 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = IlinkSoftwareTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tags.IlinkSoftwareTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IlinkSoftware.app/IlinkSoftware";
+			};
+			name = Debug;
+		};
+		35DA7373204EB4C3005E6789 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = IlinkSoftwareTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tags.IlinkSoftwareTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IlinkSoftware.app/IlinkSoftware";
+			};
+			name = Release;
+		};
+		35DA7375204EB4C3005E6789 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = IlinkSoftwareUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tags.IlinkSoftwareUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = IlinkSoftware;
+			};
+			name = Debug;
+		};
+		35DA7376204EB4C3005E6789 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = IlinkSoftwareUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tags.IlinkSoftwareUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = IlinkSoftware;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		35DA733A204EB4C3005E6789 /* Build configuration list for PBXProject "IlinkSoftware" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35DA736C204EB4C3005E6789 /* Debug */,
+				35DA736D204EB4C3005E6789 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		35DA736E204EB4C3005E6789 /* Build configuration list for PBXNativeTarget "IlinkSoftware" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35DA736F204EB4C3005E6789 /* Debug */,
+				35DA7370204EB4C3005E6789 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		35DA7371204EB4C3005E6789 /* Build configuration list for PBXNativeTarget "IlinkSoftwareTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35DA7372204EB4C3005E6789 /* Debug */,
+				35DA7373204EB4C3005E6789 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		35DA7374204EB4C3005E6789 /* Build configuration list for PBXNativeTarget "IlinkSoftwareUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35DA7375204EB4C3005E6789 /* Debug */,
+				35DA7376204EB4C3005E6789 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 35DA7337204EB4C3005E6789 /* Project object */;
+}
